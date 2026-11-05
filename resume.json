@@ -1,0 +1,123 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Sossio Giallaurito",
+    "label": "AI & Data Engineer | Software Engineer | Solution Architect",
+    "summary": "AI & Data Engineer with 10+ years of programming experience and a full-stack software engineering background. Currently on the central data team of Atida, a multi-country pharmaceutical e-commerce group, working end-to-end on a BI platform: data ingestion, orchestration (Apache Airflow), warehousing (Google BigQuery, ELT medallion architecture), analytics serving (Apache Druid, Apache Superset), and machine learning pipelines (churn prediction, demand forecasting). Strong SQL and Python expertise, deep e-commerce business domain knowledge, and a strict data validation discipline. Pursuing a Master's Degree in Big Data & Artificial Intelligence.",
+    "location": { "city": "Naples", "countryCode": "IT" },
+    "profiles": [
+      { "network": "LinkedIn", "username": "sossiogll", "url": "https://linkedin.com/in/sossiogll" },
+      { "network": "GitHub", "username": "sossiogll", "url": "https://github.com/sossiogll" },
+      { "network": "Medium", "username": "sossiogll", "url": "https://medium.com/@sossiogll" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Atida (Central Data Team)",
+      "position": "AI & Data Engineer",
+      "startDate": "2026-01",
+      "summary": "Promoted internally to Atida's central data team. I work on the multi-country e-commerce BI platform (Spain, France, Italy, Germany) as technical reference for the Italian market, operating end-to-end: from source ingestion through orchestration and warehousing, up to dashboards and reports for business stakeholders.",
+      "highlights": [
+        "Develop and maintain data pipelines with Apache Airflow (config-driven DAG factory, reactive datasets) on BigQuery, following an ELT medallion architecture.",
+        "Integrate heterogeneous sources: Magento, Tryton, GA4, SFTP, REST APIs (Minderest, Connectif, Emarsys), legacy DB2/AS400.",
+        "Design and ship ML pipelines end-to-end: feature engineering, leakage-safe temporal validation, per-store churn models deployed across the Iberia and Italy markets, tracked with ClearML, feeding priority-scored, campaign-ready customer lists.",
+        "Built the Italian and French data-ingestion layers powering Atida's demand-forecasting platform (catalog, pricing, purchase orders, supplier lead times, stock history).",
+        "Serve analytics through Apache Druid and Apache Superset (virtual datasets, dashboards); built a self-serve Slack bot for ad-hoc business extractions (margins, sellout, receipts).",
+        "Deep e-commerce domain expertise: sales facts, order lines, COGS, margins, promotions, loyalty/cashback, fulfillment logic (warehouse vs. dropship), catalog structures, competitor repricing, overstock, private label reporting.",
+        "Strict validation discipline: every dataset cross-checked against independent sources; strict production safety practices on the data warehouse."
+      ]
+    },
+    {
+      "name": "Atida eFarma",
+      "position": "Software Engineer",
+      "startDate": "2023-12",
+      "endDate": "2025-12",
+      "summary": "End-to-end development of internal software critical to logistics operations for Italy's leading online pharmacy, covering the full stack: front-end tools used by internal departments and back-end systems integrating external technology partners.",
+      "highlights": [
+        "Full-stack engineering and architecture: React, Vue 3, Node.js, Laravel, REST APIs, MVC, OOP; MariaDB and MongoDB.",
+        "Managed and evolved data infrastructure (Apache Airflow, BigQuery) and led automation initiatives through CI/CD pipelines with GitHub Actions and Docker.",
+        "Applied machine learning to business problems: sales trend forecasting based on seasonality and delivery date estimation.",
+        "Collaborated with cross-European teams and contributed to architecture decisions; promoted to Atida's central data team in January 2026."
+      ]
+    },
+    {
+      "name": "Beautiful Life Creative Studio",
+      "position": "Solution Architect & Co-Founder",
+      "startDate": "2021-10",
+      "endDate": "2023-12",
+      "highlights": [
+        "Directed and delivered end-to-end digital solutions for diverse clients: full-stack development with Laravel, Node.js, Vue, React, Angular; CMS platforms (WordPress, Drupal) with custom plugin and theme development.",
+        "Led and coordinated external collaborators (design, marketing, communication); owned technical architecture, project scoping and execution.",
+        "Managed the studio's financial operations: budgeting, tax compliance, procurement, collaborator payments."
+      ]
+    },
+    {
+      "name": "Accenture",
+      "position": "Junior Software Developer",
+      "startDate": "2021-05",
+      "endDate": "2021-09",
+      "highlights": [
+        "Worked on the Terna project (enterprise energy sector): built REST services with Java Spring Boot and front-end interfaces in React.",
+        "Enterprise SDLC practices: Git, code reviews, agile distributed teamwork."
+      ]
+    },
+    {
+      "name": "Verteego Advertising",
+      "position": "IT Analyst & Web Developer (Freelance)",
+      "startDate": "2020-09",
+      "endDate": "2021-09",
+      "summary": "Developed and customized websites for client projects: PHP, JavaScript, WordPress with custom widgets (WP Bakery, Elementor) and REST API integrations."
+    },
+    {
+      "name": "Apple Developer Academy",
+      "position": "Student Developer",
+      "startDate": "2019-09",
+      "endDate": "2020-06",
+      "summary": "Intensive program on Swift development and Apple ecosystem design: SwiftUI, UIKit, Core Data, ARKit, SceneKit; UI/UX prototyping following Apple Human Interface Guidelines; multidisciplinary international teamwork."
+    },
+    {
+      "name": "Micron Technology",
+      "position": "Software Developer (Apprenticeship)",
+      "startDate": "2015-01",
+      "endDate": "2015-06",
+      "summary": "Low-level and embedded systems development in C and Assembly: real-time operating systems (RTOS), hardware/software integration, performance-critical code."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Naples Federico II",
+      "studyType": "Master's Degree",
+      "area": "Computer Engineering (Big Data & Artificial Intelligence)",
+      "startDate": "2021-09"
+    },
+    {
+      "institution": "University of Naples Federico II",
+      "studyType": "Bachelor's Degree",
+      "area": "Computer Engineering",
+      "startDate": "2015-09",
+      "endDate": "2021-06"
+    },
+    {
+      "institution": "I.T.I.S. Francesco Giordani (Caserta)",
+      "studyType": "Secondary School Diploma",
+      "area": "Computer Science",
+      "startDate": "2010-09",
+      "endDate": "2015-08"
+    }
+  ],
+  "skills": [
+    { "name": "Data Engineering", "keywords": ["Apache Airflow", "Google BigQuery", "ELT/ETL", "Medallion architecture", "Data modeling", "Data warehousing"] },
+    { "name": "Analytics & BI", "keywords": ["Apache Druid", "Apache Superset", "Dashboarding", "KPI monitoring"] },
+    { "name": "Languages", "keywords": ["SQL", "Python", "PySpark", "JavaScript", "TypeScript", "PHP", "Java", "C", "C++", "Swift"] },
+    { "name": "Machine Learning", "keywords": ["Gradient boosting", "Feature engineering", "Churn prediction", "Demand forecasting", "ClearML"] },
+    { "name": "Software Engineering", "keywords": ["React", "Vue 3", "Node.js", "Laravel", "REST APIs", "Microservices", "MariaDB", "MongoDB", "PostgreSQL"] },
+    { "name": "DevOps", "keywords": ["Git", "Docker", "GitHub Actions", "CI/CD", "Google Cloud Platform"] }
+  ],
+  "languages": [
+    { "language": "Italian", "fluency": "Native" },
+    { "language": "English", "fluency": "Professional working proficiency" }
+  ],
+  "meta": {
+    "lastModified": "2026-11-05T00:00:00+00:00"
+  }
+}
