@@ -13,6 +13,7 @@
   },
   "work": [
     {
+      "id": "atida-data",
       "name": "Atida (Central Data Team)",
       "position": "AI & Data Engineer",
       "employmentType": "full-time",
@@ -29,6 +30,7 @@
       ]
     },
     {
+      "id": "atida-efarma",
       "name": "Atida eFarma",
       "position": "Software Engineer",
       "startDate": "2023-12",
@@ -50,6 +52,7 @@
       ]
     },
     {
+      "id": "beautiful-life",
       "name": "Beautiful Life Creative Studio",
       "position": "Solution Architect & Co-Founder",
       "startDate": "2021-10",
@@ -69,6 +72,7 @@
       ]
     },
     {
+      "id": "accenture",
       "name": "Accenture",
       "position": "Junior Software Developer",
       "startDate": "2021-05",
@@ -86,6 +90,7 @@
       ]
     },
     {
+      "id": "verteego",
       "name": "Verteego Advertising",
       "position": "IT Analyst & Web Developer (Freelance)",
       "startDate": "2020-09",
@@ -100,6 +105,7 @@
       ]
     },
     {
+      "id": "apple-academy",
       "name": "Apple Developer Academy",
       "position": "Student Developer",
       "startDate": "2019-09",
@@ -114,6 +120,7 @@
       ]
     },
     {
+      "id": "micron",
       "name": "Micron Technology",
       "position": "Software Developer (Apprenticeship)",
       "startDate": "2015-01",
@@ -129,6 +136,7 @@
   ],
   "education": [
     {
+      "id": "master-degree",
       "institution": "University of Naples Federico II",
       "studyType": "Master's Degree",
       "area": "Computer Engineering (Big Data & Artificial Intelligence)",
@@ -140,6 +148,7 @@
       ]
     },
     {
+      "id": "bachelor-degree",
       "institution": "University of Naples Federico II",
       "studyType": "Bachelor's Degree",
       "area": "Computer Engineering",
@@ -153,6 +162,7 @@
       ]
     },
     {
+      "id": "high-school",
       "institution": "I.T.I.S. Francesco Giordani (Caserta)",
       "studyType": "Secondary School Diploma",
       "area": "Computer Science",
@@ -166,6 +176,36 @@
       ]
     }
   ],
+  "timeline": {
+    "branches": [
+      { "name": "atida", "from": "master", "start": "2023-12" },
+      { "name": "beautiful-life", "from": "master", "into": "master", "start": "2021-10", "end": "2023-12" },
+      { "name": "master-degree", "from": "master", "start": "2021-09" },
+      { "name": "accenture", "from": "freelance", "into": "master", "start": "2021-05", "end": "2021-09" },
+      { "name": "freelance", "from": "master", "into": "master", "start": "2020-09", "end": "2021-09" },
+      { "name": "feature/swift", "from": "bachelor-degree", "into": "bachelor-degree", "start": "2019-09", "end": "2020-06" },
+      { "name": "bachelor-degree", "from": "master", "into": "freelance", "start": "2015-09", "end": "2021-07" },
+      { "name": "feature/micron", "from": "high-school", "into": "high-school", "start": "2015-01", "end": "2015-06" },
+      { "name": "high-school", "from": "master", "into": "master", "start": "2010-09", "end": "2015-07" }
+    ],
+    "rows": [
+      { "date": "2026-01", "branch": "atida", "role": "atida-data" },
+      { "date": "2023-12", "branch": "atida", "role": "atida-efarma" },
+      { "date": "2021-10", "branch": "beautiful-life", "role": "beautiful-life" },
+      { "date": "2021-09", "branch": "master-degree", "role": "master-degree" },
+      { "date": "2021-07", "branch": "freelance", "message": "Merge branch 'feature/bachelor-degree' into 'freelance'" },
+      { "date": "2021-05", "branch": "accenture", "role": "accenture" },
+      { "date": "2021-04", "message": "feat(age): Upgrade to the new version (N+1.0)" },
+      { "date": "2020-09", "branch": "freelance", "role": "verteego" },
+      { "date": "2020-06", "branch": "bachelor-degree", "message": "Merge branch 'feature/swift' into 'bachelor-degree'" },
+      { "date": "2019-09", "branch": "feature/swift", "role": "apple-academy" },
+      { "date": "2015-09", "branch": "bachelor-degree", "role": "bachelor-degree" },
+      { "date": "2015-07", "message": "Merge remote branch 'origin/master'" },
+      { "date": "2015-06", "branch": "high-school", "message": "Merge branch 'feature/micron' into 'high-school'" },
+      { "date": "2015-01", "branch": "feature/micron", "role": "micron" },
+      { "date": "2010-09", "branch": "high-school", "role": "high-school" }
+    ]
+  },
   "skills": [
     { "name": "Data Engineering", "keywords": ["Apache Airflow", "Google BigQuery", "ELT/ETL", "Medallion architecture", "Data modeling", "Data warehousing"] },
     { "name": "Analytics & BI", "keywords": ["Apache Druid", "Apache Superset", "Dashboarding", "KPI monitoring"] },
