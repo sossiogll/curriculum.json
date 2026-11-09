@@ -38,6 +38,14 @@
         "Managed and evolved data infrastructure (Apache Airflow, BigQuery) and led automation initiatives through CI/CD pipelines with GitHub Actions and Docker.",
         "Applied machine learning to business problems: sales trend forecasting based on seasonality and delivery date estimation.",
         "Collaborated with cross-European teams and contributed to architecture decisions; promoted to Atida's central data team in January 2026."
+      ],
+      "employmentType": "full-time",
+      "skills": [
+        { "name": "full-stack engineering & architecture", "keywords": ["React", "Vue 3", "Node.js", "Laravel", "REST APIs", "MVC", "OOP"] },
+        { "name": "data engineering & workflow automation", "keywords": ["Airflow", "BigQuery", "MariaDB", "MongoDB"] },
+        { "name": "devops & ci/cd", "keywords": ["Git", "Docker", "GitHub Actions", "Automated deployment pipelines"] },
+        { "name": "e-commerce & logistics systems", "keywords": ["Internal tools for operations", "External system integrations"] },
+        { "name": "ai & analytics", "keywords": ["Forecasting models", "Delivery date estimation", "Seasonality-driven predictions"] }
       ]
     },
     {
@@ -49,6 +57,14 @@
         "Directed and delivered end-to-end digital solutions for diverse clients: full-stack development with Laravel, Node.js, Vue, React, Angular; CMS platforms (WordPress, Drupal) with custom plugin and theme development.",
         "Led and coordinated external collaborators (design, marketing, communication); owned technical architecture, project scoping and execution.",
         "Managed the studio's financial operations: budgeting, tax compliance, procurement, collaborator payments."
+      ],
+      "employmentType": "freelance",
+      "skills": [
+        { "name": "full-stack web development", "keywords": ["Laravel", "Node.js", "Vue", "React", "Angular", "jQuery"] },
+        { "name": "cms platforms", "keywords": ["WordPress", "Drupal", "Custom plugin and theme development"] },
+        { "name": "architecture & integration", "keywords": ["REST APIs", "MVC", "OOP"] },
+        { "name": "leadership & project management", "keywords": ["Team coordination", "Technical direction", "Project scoping"] },
+        { "name": "entrepreneurship & finance", "keywords": ["Budgeting", "Tax compliance", "Procurement", "Collaborator management"] }
       ]
     },
     {
@@ -59,6 +75,13 @@
       "highlights": [
         "Worked on the Terna project (enterprise energy sector): built REST services with Java Spring Boot and front-end interfaces in React.",
         "Enterprise SDLC practices: Git, code reviews, agile distributed teamwork."
+      ],
+      "employmentType": "full-time",
+      "skills": [
+        { "name": "back-end development", "keywords": ["Java", "Spring Boot", "REST APIs"] },
+        { "name": "front-end development", "keywords": ["React"] },
+        { "name": "sdlc practices", "keywords": ["Git", "Code reviews", "Enterprise workflows"] },
+        { "name": "team collaboration", "keywords": ["Remote teamwork", "Agile environments"] }
       ]
     },
     {
@@ -66,21 +89,41 @@
       "position": "IT Analyst & Web Developer (Freelance)",
       "startDate": "2020-09",
       "endDate": "2021-09",
-      "summary": "Developed and customized websites for client projects: PHP, JavaScript, WordPress with custom widgets (WP Bakery, Elementor) and REST API integrations."
+      "summary": "Developed and customized websites for client projects: PHP, JavaScript, WordPress with custom widgets (WP Bakery, Elementor) and REST API integrations.",
+      "employmentType": "freelance",
+      "skills": [
+        { "name": "web development", "keywords": ["PHP", "JavaScript (jQuery)", "CSS", "HTML"] },
+        { "name": "cms platforms", "keywords": ["WordPress", "WP Bakery", "Elementor"] },
+        { "name": "customization", "keywords": ["Custom widgets", "Theme extensions", "Integrations"] },
+        { "name": "api integration", "keywords": ["REST APIs for WordPress workflows"] }
+      ]
     },
     {
       "name": "Apple Developer Academy",
       "position": "Student Developer",
       "startDate": "2019-09",
       "endDate": "2020-06",
-      "summary": "Intensive program on Swift development and Apple ecosystem design: SwiftUI, UIKit, Core Data, ARKit, SceneKit; UI/UX prototyping following Apple Human Interface Guidelines; multidisciplinary international teamwork."
+      "summary": "Intensive program on Swift development and Apple ecosystem design: SwiftUI, UIKit, Core Data, ARKit, SceneKit; UI/UX prototyping following Apple Human Interface Guidelines; multidisciplinary international teamwork.",
+      "employmentType": "apprenticeship",
+      "skills": [
+        { "name": "mobile development", "keywords": ["Swift", "SwiftUI", "UIKit", "Core Data"] },
+        { "name": "specialized frameworks", "keywords": ["ARKit", "PushKit", "SceneKit", "SpriteKit", "Metal"] },
+        { "name": "design & ux", "keywords": ["Apple Human Interface Guidelines", "UI/UX prototyping"] },
+        { "name": "teamwork", "keywords": ["Project coordination", "Cross-functional collaboration", "English communication"] }
+      ]
     },
     {
       "name": "Micron Technology",
       "position": "Software Developer (Apprenticeship)",
       "startDate": "2015-01",
       "endDate": "2015-06",
-      "summary": "Low-level and embedded systems development in C and Assembly: real-time operating systems (RTOS), hardware/software integration, performance-critical code."
+      "summary": "Low-level and embedded systems development in C and Assembly: real-time operating systems (RTOS), hardware/software integration, performance-critical code.",
+      "employmentType": "apprenticeship",
+      "skills": [
+        { "name": "low-level & embedded development", "keywords": ["C", "Assembly", "Arduino", "Hardware/software integration"] },
+        { "name": "real-time systems", "keywords": ["RTOS", "Timing-critical programming"] },
+        { "name": "software design", "keywords": ["Efficient", "resource-constrained code", "Debugging"] }
+      ]
     }
   ],
   "education": [
@@ -88,21 +131,38 @@
       "institution": "University of Naples Federico II",
       "studyType": "Master's Degree",
       "area": "Computer Engineering (Big Data & Artificial Intelligence)",
-      "startDate": "2021-09"
+      "startDate": "2021-09",
+      "skills": [
+        { "name": "big data & ai", "keywords": ["Data architecture", "Distributed algorithms", "Advanced analytics", "Predictive modelling"] },
+        { "name": "software & systems design", "keywords": ["Microcontrollers", "Embedded systems", "Network communication", "Algorithm optimization"] },
+        { "name": "signals, networks & transmission", "keywords": ["Reliable communication over distributed systems"] }
+      ]
     },
     {
       "institution": "University of Naples Federico II",
       "studyType": "Bachelor's Degree",
       "area": "Computer Engineering",
       "startDate": "2015-09",
-      "endDate": "2021-06"
+      "endDate": "2021-06",
+      "skills": [
+        { "name": "programming", "keywords": ["Advanced Java", "C", "C++", "Assembly", "Multithreaded and multiprocess programming", "Distributed systems"] },
+        { "name": "software design", "keywords": ["Object-oriented design", "OS-level concepts", "Synchronization techniques", "Device management algorithms"] },
+        { "name": "data management", "keywords": ["Oracle Database"] },
+        { "name": "foundations of ai", "keywords": ["Search", "Classification", "Automated reasoning"] }
+      ]
     },
     {
       "institution": "I.T.I.S. Francesco Giordani (Caserta)",
       "studyType": "Secondary School Diploma",
       "area": "Computer Science",
       "startDate": "2010-09",
-      "endDate": "2015-08"
+      "endDate": "2015-08",
+      "skills": [
+        { "name": "programming", "keywords": ["C", "C++", "Java", "Python", "Assembly"] },
+        { "name": "systems & software design", "keywords": ["Object design", "Multicore/multiprocess programming", "Linux-based systems"] },
+        { "name": "data management", "keywords": ["MySQL administration"] },
+        { "name": "networking", "keywords": ["Network configuration", "Service management"] }
+      ]
     }
   ],
   "skills": [
@@ -115,9 +175,16 @@
   ],
   "languages": [
     { "language": "Italian", "fluency": "Native" },
-    { "language": "English", "fluency": "Professional working proficiency" }
+    { "language": "English", "fluency": "Professional working proficiency", "levels": { "reading": "B1", "writing": "B2", "listening": "B1", "speaking": "B1" } }
+  ],
+  "interests": [
+    { "name": "unreal engine", "keywords": ["Blueprint programming", "3D environments", "Character locomotion", "Materials", "Height maps"] },
+    { "name": "3d modeling & animation", "keywords": ["3ds Max", "Motion Builder", "Cinema4D"] },
+    { "name": "android development", "keywords": ["Native Android (Java)"] },
+    { "name": "web development", "keywords": ["Laravel", "JavaBeans", "Custom back-end solutions"] },
+    { "name": "qt framework", "keywords": ["XML UI", "QML", "Desktop UI development"] }
   ],
   "meta": {
-    "lastModified": "2026-11-05T00:00:00+00:00"
+    "lastModified": "2026-11-09T00:00:00+00:00"
   }
 }
