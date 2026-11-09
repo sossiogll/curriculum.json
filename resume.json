@@ -15,6 +15,7 @@
     {
       "name": "Atida (Central Data Team)",
       "position": "AI & Data Engineer",
+      "employmentType": "full-time",
       "startDate": "2026-01",
       "summary": "Promoted internally to Atida's central data team. I work on the multi-country e-commerce BI platform (Spain, France, Italy, Germany) as technical reference for the Italian market, operating end-to-end: from source ingestion through orchestration and warehousing, up to dashboards and reports for business stakeholders.",
       "highlights": [
@@ -122,7 +123,7 @@
       "skills": [
         { "name": "low-level & embedded development", "keywords": ["C", "Assembly", "Arduino", "Hardware/software integration"] },
         { "name": "real-time systems", "keywords": ["RTOS", "Timing-critical programming"] },
-        { "name": "software design", "keywords": ["Efficient", "resource-constrained code", "Debugging"] }
+        { "name": "software design", "keywords": ["Efficient, resource-constrained code", "Debugging"] }
       ]
     }
   ],
