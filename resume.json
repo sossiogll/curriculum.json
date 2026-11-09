@@ -157,7 +157,7 @@
       "studyType": "Secondary School Diploma",
       "area": "Computer Science",
       "startDate": "2010-09",
-      "endDate": "2015-08",
+      "endDate": "2015-07",
       "skills": [
         { "name": "programming", "keywords": ["C", "C++", "Java", "Python", "Assembly"] },
         { "name": "systems & software design", "keywords": ["Object design", "Multicore/multiprocess programming", "Linux-based systems"] },
